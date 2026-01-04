@@ -1,6 +1,4 @@
 export interface Person {
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  motherSlug: any;
   name: string;
   sex: string;
   born: number;
